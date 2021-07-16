@@ -1,1 +1,0 @@
-https://Andrey-2185.github.io/rsschool-cv/cv
