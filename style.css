@@ -1,0 +1,55 @@
+* {
+    font-family: Arial, Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #000;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 1240px;
+    margin: 0 auto;
+    border-bottom: 2px solid rgba(0, 0, 0, .14);
+}
+.layer1 {
+    width: 350px; 
+    display: inline-block;
+}
+.header-heading{
+    font-size: 50px;
+    margin: 10px auto;
+}
+.list{
+    margin: 1px 10px 10px 10px;
+}
+
+.main {
+    max-width: 1000px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;    
+}
+.heading{
+    text-decoration:underline;
+}
+.background {
+    background-color: #cecaca;
+}
+.footer {
+    max-width: 1240px;
+    margin: 0 auto;
+    border-top: 2px solid rgba(0, 0, 0, .14);
+    text-align: center;
+    font-size: 14px;                
+}
+ul.horizontal-list {
+    margin: 0; /* Обнуляем значение отступов */
+    padding: 4px; /* Значение полей */
+}
+ul.horizontal-list li {
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 5px; /* Отступ слева */
+    padding: 3px; /* Поля вокруг текста */
+}
